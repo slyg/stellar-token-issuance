@@ -1,0 +1,9 @@
+{
+  "name": "token-issuing",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "ISC",
+  "dependencies": {
+    "stellar-sdk": "^2.3.0"
+  }
+}
