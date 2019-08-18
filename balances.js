@@ -32,7 +32,6 @@ const checkAccounts = async () => {
     })
   );
 
-  // console.log(util.inspect(stellarAccounts, false, null, true));
   stellarAccounts.forEach(displayTemplate);
 };
 
