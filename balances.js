@@ -35,4 +35,7 @@ const checkAccounts = async () => {
   stellarAccounts.forEach(displayTemplate);
 };
 
-checkAccounts();
+checkAccounts().catch(e => {
+  console.log("Meh", e);
+  throw e;
+});

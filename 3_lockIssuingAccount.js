@@ -1,11 +1,10 @@
 const {
-  accounts: { issuer, distributor },
+  accounts: { issuer },
   serverUrl
 } = require("./config.json");
 const {
   Server,
   Networks,
-  Asset,
   TransactionBuilder,
   Operation,
   Keypair
@@ -39,7 +38,7 @@ const main = async () => {
 };
 
 main()
-  .then(console.log("ok"))
+  .then(() => console.log("ok"))
   .catch(e => {
     console.log("Meh", e);
     throw e;

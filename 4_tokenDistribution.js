@@ -41,7 +41,7 @@ const main = async () => {
 };
 
 main()
-  .then(console.log("ok"))
+  .then(() => console.log("ok"))
   .catch(e => {
     console.log("Meh", e);
     throw e;
