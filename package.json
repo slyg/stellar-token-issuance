@@ -4,6 +4,6 @@
   "main": "index.js",
   "license": "ISC",
   "dependencies": {
-    "stellar-sdk": "^2.3.0"
+    "stellar-sdk": "^8.2.3"
   }
 }
